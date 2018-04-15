@@ -472,7 +472,7 @@ button{outline:none;}
 #back_to_top:hover,
 #back_to_top:focus{background:#FF944C;box-shadow:0 5px 10px 0 rgba(35, 50, 56, 0.1);}
 #back_to_top:hover{cursor:pointer;}
-#back_to_top.active{right:15px;}
+#back_to_top.active{right:15px; box-shadow:0 5px 7.5px rgba(50,50,93,.1), 0 3px 4px rgba(0,0,0,.07);}
 .top_menu{width:100%;position:relative;font-size:0.9em;}
 .top_menu{background:#f5f5f5;border-bottom:1px solid #ededed;color:#a9a9a9;}
 .top_menu.transparent{background:transparent;position:absolute;z-index:999;border-bottom:none;top:20px;color:#fff;}
@@ -603,7 +603,9 @@ section .main_title{margin-bottom:30px;margin-top:20px;}
 .dotted_overlay:before{content:'';background:url("../images/icons/gridtile.png");top:0;left:0;position:absolute;width:100%;height:100%;z-index:3;}
 .room{background:#fafafa;}
 .room figure{position:relative;}
-.room figure img{width:100%;}
+.room figure img{width:100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;}
 .room figcaption{padding:15px 10px;border:1px solid #E9E9E9;border-top:none;}
 .room figcaption h4,
 .room figcaption h5{display:inline-block;font-weight:600;}
@@ -1077,4 +1079,16 @@ figure:hover .room_list_slider .owl-nav .owl-next{opacity:1;}
 #map{height:500px;}
 #floating-panel{position:absolute;top:290px;left:40%;z-index:5;background-color:#fff;padding:5px;border:1px solid #999;text-align:center;font-family:'Roboto','sans-serif';line-height:30px;padding-left:10px;}
 .row .faq li{margin:15px 0px;}
-.index-rooms article{margin-bottom:20px;}
+.index-rooms article{margin-bottom:20px;
+    -webkit-box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    border-radius: 10px;}
+.btn_rounded{
+-webkit-box-shadow: 0 3px 7.5px rgba(50,50,93,.1), 0 3px 4px rgba(0,0,0,.07);
+box-shadow: 0 3px 7.5px rgba(50,50,93,.1), 0 3px 4px rgba(0,0,0,.07);
+border-radius: 5px;
+}
+.drop_shadow {
+    -webkit-box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+}
